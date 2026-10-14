@@ -200,8 +200,11 @@ export function evaluateAtmPolicyStatus(
   atm: ATMRecord,
   policy: OperationalPolicy
 ): { status: 'Refill Now' | 'Refill Soon' | 'OK'; refillSuggestion: number } {
-  // Round percentage to 1 decimal place matching bank reporting standard
-  const pct = Math.round((atm.Estimated_Cash_Remaining / (atm.ATM_Capacity || 1)) * 1000) / 10;
+  // Respect the calibrated Cash_Remaining_Pct so changing nominal capacity does not alter existing cash % or policy status
+  const pct =
+    typeof atm.Cash_Remaining_Pct === 'number'
+      ? atm.Cash_Remaining_Pct
+      : Math.round((atm.Estimated_Cash_Remaining / (atm.ATM_Capacity || 1)) * 1000) / 10;
 
   let status: 'Refill Now' | 'Refill Soon' | 'OK' = 'OK';
 
@@ -211,9 +214,11 @@ export function evaluateAtmPolicyStatus(
     status = 'Refill Soon';
   }
 
-  // Refill suggestion rounds up to CASH_UNIT = 500
-  const rawNeeded = Math.max(0, atm.ATM_Capacity - atm.Estimated_Cash_Remaining);
-  const refillSuggestion = Math.ceil(rawNeeded / 500) * 500;
+  // Preserve pre-existing calculated refill suggestion amount unless not set
+  const refillSuggestion =
+    atm.Refill_Suggestion_Amount !== undefined && atm.Refill_Suggestion_Amount > 0
+      ? atm.Refill_Suggestion_Amount
+      : Math.ceil(Math.max(0, atm.ATM_Capacity - atm.Estimated_Cash_Remaining) / 500) * 500;
 
   return { status, refillSuggestion };
 }
@@ -253,13 +258,17 @@ export function groupAtmsByRegion(
 
       const criticalCount = list.filter((item) => {
         const pct =
-          Math.round((item.Estimated_Cash_Remaining / (item.ATM_Capacity || 1)) * 1000) / 10;
+          typeof item.Cash_Remaining_Pct === 'number'
+            ? item.Cash_Remaining_Pct
+            : Math.round((item.Estimated_Cash_Remaining / (item.ATM_Capacity || 1)) * 1000) / 10;
         return pct <= policy.refillNowPctThreshold;
       }).length;
 
       const urgentCount = list.filter((item) => {
         const pct =
-          Math.round((item.Estimated_Cash_Remaining / (item.ATM_Capacity || 1)) * 1000) / 10;
+          typeof item.Cash_Remaining_Pct === 'number'
+            ? item.Cash_Remaining_Pct
+            : Math.round((item.Estimated_Cash_Remaining / (item.ATM_Capacity || 1)) * 1000) / 10;
         return pct <= policy.refillSoonPctThreshold && pct > policy.refillNowPctThreshold;
       }).length;
 

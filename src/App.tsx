@@ -28,7 +28,8 @@ import { AuthPage } from './components/AuthPage';
 import { User } from './types/auth';
 import { getActiveSessionUser, logoutUser } from './utils/auth';
 import { FestivalSurgeState } from './types/festival';
-import { ShieldCheck } from 'lucide-react';
+import { BANGLADESH_FESTIVALS } from './data/festivalData';
+import { ShieldCheck, Sparkles, Filter, RotateCcw } from 'lucide-react';
 
 export const App: React.FC = () => {
   // Authentication & Authorized User State
@@ -94,33 +95,24 @@ export const App: React.FC = () => {
     }
     const uniqueFleet = Array.from(uniqueMap.values());
 
-    return uniqueFleet.map((a) => {
+    // Filter to target corridors if a specific corridor filter is selected in festival planner
+    let targetFleet = uniqueFleet;
+    if (festivalState.isActive && festivalState.targetCorridors !== 'all') {
+      const CORRIDOR_FILTER_PREFIXES: Record<string, string[]> = {
+        cattle_markets_transit: ['DHA', 'MOT', 'MAL', 'CTG', 'AGR', 'COM', 'MYM', 'JTR', 'TON', 'GAZ', 'SVR'],
+        commercial_shopping: ['GUL', 'BAN', 'DHA', 'MOT', 'ELP', 'CTG', 'CDA', 'SAN', 'MIR', 'UTR'],
+        rural_hubs: ['SYL', 'RAJ', 'KHU', 'BOG', 'DIN', 'PAB', 'BAR', 'JES', 'MYM', 'TAN', 'FEN'],
+      };
+      const allowed = CORRIDOR_FILTER_PREFIXES[festivalState.targetCorridors];
+      if (allowed && allowed.length > 0) {
+        targetFleet = uniqueFleet.filter((a) => allowed.includes(a.ATMID.slice(3, 6)));
+      }
+    }
+
+    return targetFleet.map((a) => {
       let multiplier = 1.0;
       if (festivalState.isActive && festivalState.customMultiplier > 1) {
-        if (festivalState.targetCorridors === 'all') {
-          multiplier = festivalState.customMultiplier;
-        } else if (festivalState.targetCorridors === 'cattle_markets_transit') {
-          const reg = a.ATMID.slice(3, 6);
-          if (['DHA', 'MOT', 'MAL', 'CTG', 'AGR', 'COM', 'MYM'].includes(reg)) {
-            multiplier = festivalState.customMultiplier;
-          } else {
-            multiplier = 1.0 + (festivalState.customMultiplier - 1.0) * 0.4;
-          }
-        } else if (festivalState.targetCorridors === 'commercial_shopping') {
-          const reg = a.ATMID.slice(3, 6);
-          if (['GUL', 'BAN', 'DHA', 'MOT', 'ELP', 'CTG'].includes(reg)) {
-            multiplier = festivalState.customMultiplier;
-          } else {
-            multiplier = 1.0 + (festivalState.customMultiplier - 1.0) * 0.3;
-          }
-        } else if (festivalState.targetCorridors === 'rural_hubs') {
-          const reg = a.ATMID.slice(3, 6);
-          if (['SYL', 'RAJ', 'KHU', 'BOG', 'DIN', 'PAB'].includes(reg)) {
-            multiplier = festivalState.customMultiplier;
-          } else {
-            multiplier = 1.0 + (festivalState.customMultiplier - 1.0) * 0.3;
-          }
-        }
+        multiplier = festivalState.customMultiplier;
       }
 
       const predictedDemand = Math.round(a.Predicted_Demand * multiplier);
@@ -129,15 +121,35 @@ export const App: React.FC = () => {
           ? Math.round((a.Estimated_Cash_Remaining / predictedDemand) * 10) / 10
           : a.Days_of_Cash;
 
-      const adjustedAtm: ATMRecord = {
+      let status: 'Refill Now' | 'Refill Soon' | 'OK' = a.Status;
+      let refillSuggestion = a.Refill_Suggestion_Amount;
+
+      if (festivalState.isActive) {
+        // When festival planner is active, dynamically update Status and Refill Suggestion to reflect the surge!
+        if (daysOfCash <= 1.0 || a.Cash_Remaining_Pct <= policy.refillNowPctThreshold) {
+          status = 'Refill Now';
+        } else if (daysOfCash <= 2.0 || a.Cash_Remaining_Pct <= policy.refillSoonPctThreshold) {
+          status = 'Refill Soon';
+        } else {
+          status = 'OK';
+        }
+
+        const cashDeficit = Math.max(0, a.ATM_Capacity - a.Estimated_Cash_Remaining);
+        const surgeLoadTarget = Math.min(
+          a.ATM_Capacity,
+          Math.max(cashDeficit, Math.round(predictedDemand * 2.5))
+        );
+        refillSuggestion = Math.ceil(surgeLoadTarget / 500) * 500;
+      } else {
+        const evaluated = evaluateAtmPolicyStatus(a, policy);
+        status = evaluated.status;
+        refillSuggestion = evaluated.refillSuggestion;
+      }
+
+      return {
         ...a,
         Predicted_Demand: predictedDemand,
         Days_of_Cash: daysOfCash,
-      };
-
-      const { status, refillSuggestion } = evaluateAtmPolicyStatus(adjustedAtm, policy);
-      return {
-        ...adjustedAtm,
         Status: status,
         Refill_Suggestion_Amount: refillSuggestion,
       };
@@ -366,6 +378,62 @@ export const App: React.FC = () => {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full pb-24">
         {activeTab === 'operations' && (
           <div className="space-y-6">
+            {/* Active Festival Surge Filter Notification Banner */}
+            {festivalState.isActive && (
+              <div className="bg-gradient-to-r from-emerald-900 via-teal-900 to-slate-900 text-white p-4 rounded-2xl border border-emerald-500/40 shadow-lg flex flex-wrap items-center justify-between gap-4 animate-in fade-in duration-200">
+                <div className="flex items-center gap-3">
+                  <div className="p-2.5 rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+                    <Sparkles className="w-5 h-5 animate-pulse" />
+                  </div>
+                  <div>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="font-extrabold text-sm text-white">
+                        {BANGLADESH_FESTIVALS.find((f) => f.id === festivalState.selectedFestivalId)?.name || 'Eid Festival Surge Active'}
+                      </span>
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-400 text-slate-950 font-mono">
+                        {festivalState.customMultiplier.toFixed(2)}x Outflow (+{Math.round((festivalState.customMultiplier - 1) * 100)}%)
+                      </span>
+                      {festivalState.targetCorridors !== 'all' ? (
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-blue-500/30 text-blue-300 border border-blue-400/30 font-mono">
+                          Corridor: {festivalState.targetCorridors.replace(/_/g, ' ')} ({atms.length} Terminals)
+                        </span>
+                      ) : (
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-slate-300 border border-slate-700 font-mono">
+                          National Grid ({atms.length} Terminals)
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-xs text-emerald-100/80 mt-1">
+                      Dashboard telemetry is totally updated on the active surge filter with accelerated withdrawal rates and critical stockout alerts.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 text-xs">
+                  {festivalState.targetCorridors !== 'all' && (
+                    <button
+                      onClick={() => setFestivalState((prev) => ({ ...prev, targetCorridors: 'all' }))}
+                      className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold transition-colors cursor-pointer"
+                    >
+                      Show All Fleet ({baseAtms.length})
+                    </button>
+                  )}
+                  <button
+                    onClick={() => setIsFestivalModalOpen(true)}
+                    className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold transition-colors cursor-pointer shadow-xs"
+                  >
+                    Adjust Surge
+                  </button>
+                  <button
+                    onClick={() => setFestivalState((prev) => ({ ...prev, isActive: false }))}
+                    className="px-3 py-1.5 rounded-lg bg-rose-600/80 hover:bg-rose-600 text-white font-semibold transition-colors cursor-pointer"
+                  >
+                    Reset Baseline
+                  </button>
+                </div>
+              </div>
+            )}
+
             {/* Executive KPI Metric Tiles */}
             <KpiSummary
               atms={atms}
@@ -387,16 +455,27 @@ export const App: React.FC = () => {
                 <div className="w-full">
                   <AtmDetailCard
                     atm={selectedAtm}
+                    nearbyAtms={atms}
                     onSimulateRefill={handleSimulateRefill}
                     onAddToManifest={handleAddToManifest}
                     onOpenCassetteModal={(atm) => setCassetteAtm(atm)}
+                    onNavigateToFullGis={(_corridor, atmId) => {
+                      setSelectedId(atmId);
+                      setActiveTab('regional');
+                    }}
                     isInManifest={selectedAtm ? manifestIds.includes(selectedAtm.ATMID) : false}
                   />
                 </div>
               </div>
               <div className="lg:col-span-8 flex">
                 <div className="w-full">
-                  {selectedAtm && <AtmChart atm={selectedAtm} policy={policy} />}
+                  {selectedAtm && (
+                    <AtmChart
+                      atm={selectedAtm}
+                      policy={policy}
+                      demandMultiplier={festivalState.isActive ? festivalState.customMultiplier : 1.0}
+                    />
+                  )}
                 </div>
               </div>
             </div>

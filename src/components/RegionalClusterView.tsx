@@ -427,6 +427,8 @@ export const RegionalClusterView: React.FC<RegionalClusterViewProps> = ({
             clusters={clusters}
             selectedClusterId={selectedClusterId}
             onSelectCluster={setSelectedClusterId}
+            atms={atms}
+            onSelectAtm={onSelectAtm}
           />
         </div>
       )}

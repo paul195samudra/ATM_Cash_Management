@@ -20,20 +20,25 @@ import {
   Sparkles,
   Zap
 } from 'lucide-react';
+import { AtmSingleGeoMap } from './AtmSingleGeoMap';
 
 interface AtmDetailCardProps {
   atm: ATMRecord | undefined;
+  nearbyAtms?: ATMRecord[];
   onSimulateRefill?: (atmId: string) => void;
   onAddToManifest?: (atm: ATMRecord) => void;
   onOpenCassetteModal?: (atm: ATMRecord) => void;
+  onNavigateToFullGis?: (corridorCode: string, atmId: string) => void;
   isInManifest?: boolean;
 }
 
 export const AtmDetailCard: React.FC<AtmDetailCardProps> = ({
   atm,
+  nearbyAtms,
   onSimulateRefill,
   onAddToManifest,
   onOpenCassetteModal,
+  onNavigateToFullGis,
   isInManifest = false,
 }) => {
   const [copied, setCopied] = useState(false);
@@ -116,6 +121,15 @@ export const AtmDetailCard: React.FC<AtmDetailCardProps> = ({
             </div>
           </div>
         </div>
+
+        {/* Individual ATM Interactive GPS Geo Map */}
+        <AtmSingleGeoMap
+          atm={atm}
+          nearbyAtms={nearbyAtms}
+          onNavigateToFullGis={onNavigateToFullGis}
+          className="my-3.5"
+          defaultExpanded={true}
+        />
 
         {/* Vault Reservoir Progress Meter */}
         <div className="my-3.5 bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">

@@ -15,9 +15,10 @@ import {
 interface AtmChartProps {
   atm: ATMRecord;
   policy: OperationalPolicy;
+  demandMultiplier?: number;
 }
 
-export const AtmChart: React.FC<AtmChartProps> = ({ atm, policy }) => {
+export const AtmChart: React.FC<AtmChartProps> = ({ atm, policy, demandMultiplier = 1.0 }) => {
   const [chartMode, setChartMode] = useState<'historical' | 'forward'>('forward');
   const [range, setRange] = useState<'14d' | '30d' | '60d' | 'all'>('30d');
   const [hoverIndex, setHoverIndex] = useState<number | null>(null);
@@ -161,7 +162,7 @@ export const AtmChart: React.FC<AtmChartProps> = ({ atm, policy }) => {
 
       {/* Trajectory View */}
       {chartMode === 'forward' && (
-        <DepletionTrajectoryChart atm={atm} policy={policy} />
+        <DepletionTrajectoryChart atm={atm} policy={policy} demandMultiplier={demandMultiplier} />
       )}
 
       {/* Historical View */}

@@ -14,7 +14,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGAR02",
     "Location": "Garib-e-Newaz Avenue Branch, Uttara, Dhaka (Terminal 02)",
-    "ATM_Capacity": 939750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 188128.0,
     "Cash_Remaining_Pct": 20.0,
     "Predicted_Demand": 277499.0,
@@ -25,7 +25,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHY06",
     "Location": "Shyamoli Ring Road Branch, Dhaka (Terminal 06)",
-    "ATM_Capacity": 1086750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 236355.0,
     "Cash_Remaining_Pct": 21.7,
     "Predicted_Demand": 489415.0,
@@ -36,7 +36,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSAI01",
     "Location": "Science Laboratory New Market Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1506750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 315282.0,
     "Cash_Remaining_Pct": 20.9,
     "Predicted_Demand": 531344.0,
@@ -47,7 +47,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRA05",
     "Location": "Pragati Sarani Kuril Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 733500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 175022.0,
     "Cash_Remaining_Pct": 23.9,
     "Predicted_Demand": 291965.0,
@@ -58,7 +58,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRI06",
     "Location": "Panthapath Green Road Branch, Dhaka (Terminal 06)",
-    "ATM_Capacity": 797250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 197982.0,
     "Cash_Remaining_Pct": 24.8,
     "Predicted_Demand": 339558.0,
@@ -69,7 +69,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBWAR02",
     "Location": "Wari Rankin Street Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 792750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 202427.0,
     "Cash_Remaining_Pct": 25.5,
     "Predicted_Demand": 321349.0,
@@ -80,7 +80,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRL01",
     "Location": "Purana Paltan Lane Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1158750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 239652.0,
     "Cash_Remaining_Pct": 20.7,
     "Predicted_Demand": 331401.0,
@@ -91,7 +91,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBNAY01",
     "Location": "Naya Paltan VIP Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1049250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 217834.0,
     "Cash_Remaining_Pct": 20.8,
     "Predicted_Demand": 292336.0,
@@ -102,7 +102,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCOX03",
     "Location": "Hotel Seagull Point Branch, Cox's Bazar (Terminal 03)",
-    "ATM_Capacity": 230250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 55030.0,
     "Cash_Remaining_Pct": 23.9,
     "Predicted_Demand": 79072.0,
@@ -113,7 +113,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBATI01",
     "Location": "Ati Bazar Keraniganj Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 497250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 128998.0,
     "Cash_Remaining_Pct": 25.9,
     "Predicted_Demand": 187578.0,
@@ -124,7 +124,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJTR01",
     "Location": "Jatrabari Intersection Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1023750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 275349.0,
     "Cash_Remaining_Pct": 26.9,
     "Predicted_Demand": 388929.0,
@@ -135,7 +135,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPAB01",
     "Location": "Abdul Hamid Road Branch, Pabna (Terminal 01)",
-    "ATM_Capacity": 1974750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 421784.0,
     "Cash_Remaining_Pct": 21.4,
     "Predicted_Demand": 514574.0,
@@ -146,7 +146,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBLOH02",
     "Location": "Lohagara Station Road Branch, Chittagong (Terminal 02)",
-    "ATM_Capacity": 1544250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 343332.0,
     "Cash_Remaining_Pct": 22.2,
     "Predicted_Demand": 420018.0,
@@ -157,7 +157,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSAH01",
     "Location": "Shahbagh Medical Corridor Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1032750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 230592.0,
     "Cash_Remaining_Pct": 22.3,
     "Predicted_Demand": 304609.0,
@@ -168,7 +168,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBRON05",
     "Location": "Rampura DIT Road Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 756750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 183451.0,
     "Cash_Remaining_Pct": 24.2,
     "Predicted_Demand": 240419.0,
@@ -179,7 +179,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKUS01",
     "Location": "N.S. Road Commercial Zone Branch, Kushtia (Terminal 01)",
-    "ATM_Capacity": 750000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 215061.0,
     "Cash_Remaining_Pct": 28.7,
     "Predicted_Demand": 286188.0,
@@ -190,7 +190,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRD06",
     "Location": "Baridhara Diplomatic Enclave Branch, Dhaka (Terminal 06)",
-    "ATM_Capacity": 1886250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 415742.0,
     "Cash_Remaining_Pct": 22.0,
     "Predicted_Demand": 448202.0,
@@ -201,7 +201,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJUB01",
     "Location": "Jubilee Road Commercial Hub Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1875000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 423028.0,
     "Cash_Remaining_Pct": 22.6,
     "Predicted_Demand": 490833.0,
@@ -212,7 +212,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKUL01",
     "Location": "Kulaura Station Road Branch, Moulvibazar (Terminal 01)",
-    "ATM_Capacity": 1985250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 477742.0,
     "Cash_Remaining_Pct": 24.1,
     "Predicted_Demand": 537510.0,
@@ -223,7 +223,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR04",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 1686750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 415397.0,
     "Cash_Remaining_Pct": 24.6,
     "Predicted_Demand": 469092.0,
@@ -234,7 +234,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBOK01",
     "Location": "Bokshibazar Crossing Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 510000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 128185.0,
     "Cash_Remaining_Pct": 25.1,
     "Predicted_Demand": 136095.0,
@@ -245,7 +245,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCOM01",
     "Location": "Kandirpar Badurtala Branch, Comilla (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 570855.0,
     "Cash_Remaining_Pct": 25.4,
     "Predicted_Demand": 617139.0,
@@ -256,7 +256,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKHI01",
     "Location": "Khilgaon Taltola Market Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1272000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 332759.0,
     "Cash_Remaining_Pct": 26.2,
     "Predicted_Demand": 388300.0,
@@ -267,7 +267,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAR04",
     "Location": "Band Road River Port Branch, Barisal (Terminal 04)",
-    "ATM_Capacity": 539250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 166146.0,
     "Cash_Remaining_Pct": 30.8,
     "Predicted_Demand": 184666.0,
@@ -278,7 +278,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKUL02",
     "Location": "Kulaura Station Road Branch, Moulvibazar (Terminal 02)",
-    "ATM_Capacity": 558000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 178776.0,
     "Cash_Remaining_Pct": 32.0,
     "Predicted_Demand": 192793.0,
@@ -289,7 +289,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDOH01",
     "Location": "DOHS Mirpur Shopping Complex Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1455000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 311338.0,
     "Cash_Remaining_Pct": 21.4,
     "Predicted_Demand": 311201.0,
@@ -300,7 +300,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBTEK01",
     "Location": "Teknaf Land Port Gateway Branch, Cox's Bazar (Terminal 01)",
-    "ATM_Capacity": 2165250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 483639.0,
     "Cash_Remaining_Pct": 22.3,
     "Predicted_Demand": 478423.0,
@@ -311,7 +311,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBELP01",
     "Location": "Elephant Road Bata Signal Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1935750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 484596.0,
     "Cash_Remaining_Pct": 25.0,
     "Predicted_Demand": 508487.0,
@@ -322,7 +322,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBRAJ01",
     "Location": "Shaheb Bazar Zero Point Branch, Rajshahi (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 634215.0,
     "Cash_Remaining_Pct": 28.2,
     "Predicted_Demand": 619159.0,
@@ -333,7 +333,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBRON07",
     "Location": "Rampura DIT Road Branch, Dhaka (Terminal 07)",
-    "ATM_Capacity": 1143000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 380111.0,
     "Cash_Remaining_Pct": 33.3,
     "Predicted_Demand": 384026.0,
@@ -344,7 +344,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKMR01",
     "Location": "Kamarpara Bus Stand Branch, Uttara, Dhaka (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 500488.0,
     "Cash_Remaining_Pct": 22.2,
     "Predicted_Demand": 459396.0,
@@ -355,7 +355,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRD03",
     "Location": "Baridhara Diplomatic Enclave Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 999750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 308858.0,
     "Cash_Remaining_Pct": 30.9,
     "Predicted_Demand": 280927.0,
@@ -366,7 +366,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGUL05",
     "Location": "Gulshan Avenue Circle-2 Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 913500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 289255.0,
     "Cash_Remaining_Pct": 31.7,
     "Predicted_Demand": 264208.0,
@@ -377,7 +377,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDEW01",
     "Location": "Dewanhat Commercial Area Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1173000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 425358.0,
     "Cash_Remaining_Pct": 36.3,
     "Predicted_Demand": 387877.0,
@@ -388,7 +388,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBTAN01",
     "Location": "Victoria Road Commercial Area Branch, Tangail (Terminal 01)",
-    "ATM_Capacity": 1845000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 676963.0,
     "Cash_Remaining_Pct": 36.7,
     "Predicted_Demand": 609721.0,
@@ -399,7 +399,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR07",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 07)",
-    "ATM_Capacity": 962250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 353034.0,
     "Cash_Remaining_Pct": 36.7,
     "Predicted_Demand": 325917.0,
@@ -410,7 +410,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGOL01",
     "Location": "Golapganj Town Center Branch, Sylhet (Terminal 01)",
-    "ATM_Capacity": 982500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 364664.0,
     "Cash_Remaining_Pct": 37.1,
     "Predicted_Demand": 321935.0,
@@ -421,7 +421,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRA01",
     "Location": "Pragati Sarani Kuril Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1966500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 597031.0,
     "Cash_Remaining_Pct": 30.4,
     "Predicted_Demand": 503444.0,
@@ -432,7 +432,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBLUC01",
     "Location": "Laldighi East Commercial Hub Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1551000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 472685.0,
     "Cash_Remaining_Pct": 30.5,
     "Predicted_Demand": 409811.0,
@@ -443,7 +443,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHY08",
     "Location": "Shyamoli Ring Road Branch, Dhaka (Terminal 08)",
-    "ATM_Capacity": 2061000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 636538.0,
     "Cash_Remaining_Pct": 30.9,
     "Predicted_Demand": 531804.0,
@@ -454,7 +454,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAD01",
     "Location": "Madaripur Sadar Main Road Branch (Terminal 01)",
-    "ATM_Capacity": 1129500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 354885.0,
     "Cash_Remaining_Pct": 31.4,
     "Predicted_Demand": 295285.0,
@@ -465,7 +465,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBNN01",
     "Location": "Banani DOHS Lake Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1143750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 418040.0,
     "Cash_Remaining_Pct": 36.5,
     "Predicted_Demand": 348524.0,
@@ -476,7 +476,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOM02",
     "Location": "Mohammadpur Town Hall Market Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1402500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 529279.0,
     "Cash_Remaining_Pct": 37.7,
     "Predicted_Demand": 434702.0,
@@ -487,7 +487,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMON02",
     "Location": "Mongla Port Commercial Area Branch, Bagerhat (Terminal 02)",
-    "ATM_Capacity": 959250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 366312.0,
     "Cash_Remaining_Pct": 38.2,
     "Predicted_Demand": 300784.0,
@@ -498,7 +498,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDHA01",
     "Location": "Dhanmondi Satmasjid Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1810500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 706749.0,
     "Cash_Remaining_Pct": 39.0,
     "Predicted_Demand": 579971.0,
@@ -509,7 +509,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJES03",
     "Location": "M.K. Road Commercial Hub Branch, Jessore (Terminal 03)",
-    "ATM_Capacity": 990000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 314520.0,
     "Cash_Remaining_Pct": 31.8,
     "Predicted_Demand": 248061.0,
@@ -520,7 +520,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBNAZ02",
     "Location": "Nazirhat Rail Station Road Branch, Chittagong (Terminal 02)",
-    "ATM_Capacity": 1776000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 580970.0,
     "Cash_Remaining_Pct": 32.7,
     "Predicted_Demand": 434452.0,
@@ -531,7 +531,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBELP04",
     "Location": "Elephant Road Bata Signal Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 915000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 317137.0,
     "Cash_Remaining_Pct": 34.7,
     "Predicted_Demand": 240515.0,
@@ -542,7 +542,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAR07",
     "Location": "Band Road River Port Branch, Barisal (Terminal 07)",
-    "ATM_Capacity": 279750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 98156.0,
     "Cash_Remaining_Pct": 35.1,
     "Predicted_Demand": 75488.0,
@@ -553,7 +553,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKHU05",
     "Location": "KDA Avenue Commercial Zone Branch, Khulna (Terminal 05)",
-    "ATM_Capacity": 696750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 271436.0,
     "Cash_Remaining_Pct": 39.0,
     "Predicted_Demand": 207088.0,
@@ -564,7 +564,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOH03",
     "Location": "Mohakhali C/A Wireless Gate Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 884860.0,
     "Cash_Remaining_Pct": 39.3,
     "Predicted_Demand": 684160.0,
@@ -575,7 +575,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCOM02",
     "Location": "Kandirpar Badurtala Branch, Comilla (Terminal 02)",
-    "ATM_Capacity": 1977000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 703431.0,
     "Cash_Remaining_Pct": 35.6,
     "Predicted_Demand": 492764.0,
@@ -586,7 +586,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBOL01",
     "Location": "Bolpur Sonargaon Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1862250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 742807.0,
     "Cash_Remaining_Pct": 39.9,
     "Predicted_Demand": 545286.0,
@@ -597,7 +597,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMON01",
     "Location": "Mongla Port Commercial Area Branch, Bagerhat (Terminal 01)",
-    "ATM_Capacity": 1168500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 432202.0,
     "Cash_Remaining_Pct": 37.0,
     "Predicted_Demand": 290093.0,
@@ -608,7 +608,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOT03",
     "Location": "Motijheel C/A Principal Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 1498500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 485424.0,
     "Cash_Remaining_Pct": 32.4,
     "Predicted_Demand": 313092.0,
@@ -619,7 +619,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHY02",
     "Location": "Shyamoli Ring Road Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 2031000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 764199.0,
     "Cash_Remaining_Pct": 37.6,
     "Predicted_Demand": 471915.0,
@@ -630,7 +630,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBOG02",
     "Location": "Satmatha Rangpur Road Branch, Bogra (Terminal 02)",
-    "ATM_Capacity": 1875000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 711554.0,
     "Cash_Remaining_Pct": 37.9,
     "Predicted_Demand": 440163.0,
@@ -641,7 +641,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBAST01",
     "Location": "Asad Gate Mohammadpur Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1746750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 596809.0,
     "Cash_Remaining_Pct": 34.2,
     "Predicted_Demand": 324645.0,
@@ -652,7 +652,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBTON02",
     "Location": "Tongi Station Road Industrial Branch, Gazipur (Terminal 02)",
-    "ATM_Capacity": 225750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 87348.0,
     "Cash_Remaining_Pct": 38.7,
     "Predicted_Demand": 41787.0,
@@ -663,7 +663,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAD04",
     "Location": "Madaripur Sadar Main Road Branch (Terminal 04)",
-    "ATM_Capacity": 892500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 257705.0,
     "Cash_Remaining_Pct": 28.9,
     "Predicted_Demand": 111018.0,
@@ -674,7 +674,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCOM05",
     "Location": "Kandirpar Badurtala Branch, Comilla (Terminal 05)",
-    "ATM_Capacity": 891750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 352427.0,
     "Cash_Remaining_Pct": 39.5,
     "Predicted_Demand": 150335.0,
@@ -685,7 +685,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRD05",
     "Location": "Baridhara Diplomatic Enclave Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 2058000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 630940.0,
     "Cash_Remaining_Pct": 30.7,
     "Predicted_Demand": 236684.0,
@@ -696,7 +696,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBFEN02",
     "Location": "Trunk Road SSK Sarak Branch, Feni (Terminal 02)",
-    "ATM_Capacity": 566250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 118921.0,
     "Cash_Remaining_Pct": 21.0,
     "Predicted_Demand": 18136.0,
@@ -707,7 +707,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGUL04",
     "Location": "Gulshan Avenue Circle-2 Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 1874250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 379120.0,
     "Cash_Remaining_Pct": 20.2,
     "Predicted_Demand": 18168.0,
@@ -718,7 +718,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAD05",
     "Location": "Madaripur Sadar Main Road Branch (Terminal 05)",
-    "ATM_Capacity": 94500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 41958.0,
     "Cash_Remaining_Pct": 44.4,
     "Predicted_Demand": 52542.0,
@@ -729,7 +729,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJES01",
     "Location": "M.K. Road Commercial Hub Branch, Jessore (Terminal 01)",
-    "ATM_Capacity": 2019000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 858282.0,
     "Cash_Remaining_Pct": 42.5,
     "Predicted_Demand": 638630.0,
@@ -740,7 +740,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHY07",
     "Location": "Shyamoli Ring Road Branch, Dhaka (Terminal 07)",
-    "ATM_Capacity": 897750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 500507.0,
     "Cash_Remaining_Pct": 55.8,
     "Predicted_Demand": 397243.0,
@@ -751,7 +751,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAN02",
     "Location": "Banani Road 11 Executive Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1014750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 433585.0,
     "Cash_Remaining_Pct": 42.7,
     "Predicted_Demand": 300907.0,
@@ -762,7 +762,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKAZ01",
     "Location": "Kazir Dewri Commercial Zone Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 2221500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 952817.0,
     "Cash_Remaining_Pct": 42.9,
     "Predicted_Demand": 682919.0,
@@ -773,7 +773,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAR03",
     "Location": "Band Road River Port Branch, Barisal (Terminal 03)",
-    "ATM_Capacity": 858000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 371683.0,
     "Cash_Remaining_Pct": 43.3,
     "Predicted_Demand": 271245.0,
@@ -784,7 +784,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMYM02",
     "Location": "Station Road Town Hall Branch, Mymensingh (Terminal 02)",
-    "ATM_Capacity": 1742250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 756944.0,
     "Cash_Remaining_Pct": 43.4,
     "Predicted_Demand": 553164.0,
@@ -795,7 +795,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAN03",
     "Location": "Banani Road 11 Executive Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 812250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 469153.0,
     "Cash_Remaining_Pct": 57.8,
     "Predicted_Demand": 343097.0,
@@ -806,7 +806,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSGN01",
     "Location": "Sirajganj Sadar Bazar Branch (Terminal 01)",
-    "ATM_Capacity": 1582500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 658784.0,
     "Cash_Remaining_Pct": 41.6,
     "Predicted_Demand": 448449.0,
@@ -817,7 +817,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRI05",
     "Location": "Panthapath Green Road Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 626250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 267766.0,
     "Cash_Remaining_Pct": 42.8,
     "Predicted_Demand": 174127.0,
@@ -828,7 +828,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPOL01",
     "Location": "Palashi BUET Gate Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1567500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 680504.0,
     "Cash_Remaining_Pct": 43.4,
     "Predicted_Demand": 457637.0,
@@ -839,7 +839,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJOY02",
     "Location": "Joydebpur Chowrasta Branch, Gazipur (Terminal 02)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 978487.0,
     "Cash_Remaining_Pct": 43.5,
     "Predicted_Demand": 653325.0,
@@ -850,7 +850,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBTAN03",
     "Location": "Victoria Road Commercial Area Branch, Tangail (Terminal 03)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1008649.0,
     "Cash_Remaining_Pct": 44.8,
     "Predicted_Demand": 668865.0,
@@ -861,7 +861,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR04",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 887250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 535573.0,
     "Cash_Remaining_Pct": 60.4,
     "Predicted_Demand": 351677.0,
@@ -872,7 +872,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSRE01",
     "Location": "Sreemangal Tea Resort Road Branch, Moulvibazar (Terminal 01)",
-    "ATM_Capacity": 963000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 401955.0,
     "Cash_Remaining_Pct": 41.7,
     "Predicted_Demand": 258138.0,
@@ -883,7 +883,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBELP03",
     "Location": "Elephant Road Bata Signal Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 568500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 241786.0,
     "Cash_Remaining_Pct": 42.5,
     "Predicted_Demand": 155246.0,
@@ -894,7 +894,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR09",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 09)",
-    "ATM_Capacity": 1435500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 643940.0,
     "Cash_Remaining_Pct": 44.9,
     "Predicted_Demand": 413887.0,
@@ -905,7 +905,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBNAO02",
     "Location": "Naogaon Sadar Commercial Zone Branch (Terminal 02)",
-    "ATM_Capacity": 1145250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 521680.0,
     "Cash_Remaining_Pct": 45.6,
     "Predicted_Demand": 319639.0,
@@ -916,7 +916,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSVR02",
     "Location": "Savar Bazar Bus Stand Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 999750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 461087.0,
     "Cash_Remaining_Pct": 46.1,
     "Predicted_Demand": 295329.0,
@@ -927,7 +927,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBROK01",
     "Location": "Begum Rokeya Sarani Kazipara Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1388072.0,
     "Cash_Remaining_Pct": 61.7,
     "Predicted_Demand": 861928.0,
@@ -938,7 +938,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJIN01",
     "Location": "Zinzira Madbar Bazar Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 946488.0,
     "Cash_Remaining_Pct": 42.1,
     "Predicted_Demand": 561847.0,
@@ -949,7 +949,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOT02",
     "Location": "Motijheel C/A Principal Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 703500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 300725.0,
     "Cash_Remaining_Pct": 42.7,
     "Predicted_Demand": 180480.0,
@@ -960,7 +960,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMDH01",
     "Location": "Madhabdi Textile Market Branch, Narsingdi (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1046153.0,
     "Cash_Remaining_Pct": 46.5,
     "Predicted_Demand": 615116.0,
@@ -971,7 +971,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHY03",
     "Location": "Shyamoli Ring Road Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 1368750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 640424.0,
     "Cash_Remaining_Pct": 46.8,
     "Predicted_Demand": 373667.0,
@@ -982,7 +982,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDHA06",
     "Location": "Dhanmondi Satmasjid Road Branch, Dhaka (Terminal 06)",
-    "ATM_Capacity": 933750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 450587.0,
     "Cash_Remaining_Pct": 48.3,
     "Predicted_Demand": 259309.0,
@@ -993,7 +993,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGUL06",
     "Location": "Gulshan Avenue Circle-2 Branch, Dhaka (Terminal 06)",
-    "ATM_Capacity": 1103250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 689272.0,
     "Cash_Remaining_Pct": 62.5,
     "Predicted_Demand": 413978.0,
@@ -1004,7 +1004,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBFRD01",
     "Location": "Goalanda Ghat Road Branch, Faridpur (Terminal 01)",
-    "ATM_Capacity": 1169250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 733183.0,
     "Cash_Remaining_Pct": 62.7,
     "Predicted_Demand": 436067.0,
@@ -1015,7 +1015,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGAN01",
     "Location": "Gangni Bus Stand Branch, Meherpur (Terminal 01)",
-    "ATM_Capacity": 1036500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 429593.0,
     "Cash_Remaining_Pct": 41.4,
     "Predicted_Demand": 233800.0,
@@ -1026,7 +1026,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCHT01",
     "Location": "Chhatak Cement Town Branch, Sunamganj (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1086550.0,
     "Cash_Remaining_Pct": 48.3,
     "Predicted_Demand": 590287.0,
@@ -1037,7 +1037,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBFEN03",
     "Location": "Trunk Road SSK Sarak Branch, Feni (Terminal 03)",
-    "ATM_Capacity": 1479750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 718871.0,
     "Cash_Remaining_Pct": 48.6,
     "Predicted_Demand": 406658.0,
@@ -1048,7 +1048,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBASH01",
     "Location": "Ashulia EPZ Bypass Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 825750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 527217.0,
     "Cash_Remaining_Pct": 63.8,
     "Predicted_Demand": 298533.0,
@@ -1059,7 +1059,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRA03",
     "Location": "Pragati Sarani Kuril Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 840750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 536548.0,
     "Cash_Remaining_Pct": 63.8,
     "Predicted_Demand": 304202.0,
@@ -1070,7 +1070,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOH01",
     "Location": "Mohakhali C/A Wireless Gate Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1012500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 653917.0,
     "Cash_Remaining_Pct": 64.6,
     "Predicted_Demand": 358583.0,
@@ -1081,7 +1081,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRI01",
     "Location": "Panthapath Green Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1457881.0,
     "Cash_Remaining_Pct": 64.8,
     "Predicted_Demand": 792119.0,
@@ -1092,7 +1092,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR06",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 06)",
-    "ATM_Capacity": 840000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 409696.0,
     "Cash_Remaining_Pct": 48.8,
     "Predicted_Demand": 214700.0,
@@ -1103,7 +1103,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR01",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1996500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1014280.0,
     "Cash_Remaining_Pct": 50.8,
     "Predicted_Demand": 541315.0,
@@ -1114,7 +1114,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCEP03",
     "Location": "Chittagong EPZ Terminal Branch (Terminal 03)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 911856.0,
     "Cash_Remaining_Pct": 40.5,
     "Predicted_Demand": 460911.0,
@@ -1125,7 +1125,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCCB01",
     "Location": "Chawkbazar Main Circle Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 712500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 471841.0,
     "Cash_Remaining_Pct": 66.2,
     "Predicted_Demand": 240659.0,
@@ -1136,7 +1136,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR05",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 1087500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 723342.0,
     "Cash_Remaining_Pct": 66.5,
     "Predicted_Demand": 364158.0,
@@ -1147,7 +1147,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBLMH01",
     "Location": "Lalmatia Block B Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1196250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 801253.0,
     "Cash_Remaining_Pct": 67.0,
     "Predicted_Demand": 394997.0,
@@ -1158,7 +1158,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBON02",
     "Location": "Bonani Block E Lakeview Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1097250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 742940.0,
     "Cash_Remaining_Pct": 67.7,
     "Predicted_Demand": 354310.0,
@@ -1169,7 +1169,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMYM01",
     "Location": "Station Road Town Hall Branch, Mymensingh (Terminal 01)",
-    "ATM_Capacity": 967500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 655612.0,
     "Cash_Remaining_Pct": 67.8,
     "Predicted_Demand": 311888.0,
@@ -1180,7 +1180,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCAN01",
     "Location": "Dhaka Cantonment Sena Malancha Branch (Terminal 01)",
-    "ATM_Capacity": 1692750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1156526.0,
     "Cash_Remaining_Pct": 68.3,
     "Predicted_Demand": 536224.0,
@@ -1191,7 +1191,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDHA04",
     "Location": "Dhanmondi Satmasjid Road Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 1353000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 927470.0,
     "Cash_Remaining_Pct": 68.5,
     "Predicted_Demand": 425530.0,
@@ -1202,7 +1202,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOT04",
     "Location": "Motijheel C/A Principal Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 781500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 536244.0,
     "Cash_Remaining_Pct": 68.6,
     "Predicted_Demand": 245256.0,
@@ -1213,7 +1213,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAL01",
     "Location": "Malibagh Chowdhury Para Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 604500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 417374.0,
     "Cash_Remaining_Pct": 69.0,
     "Predicted_Demand": 187126.0,
@@ -1224,7 +1224,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKLM01",
     "Location": "Kalabagan Mirpur Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1944750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 928239.0,
     "Cash_Remaining_Pct": 47.7,
     "Predicted_Demand": 407346.0,
@@ -1235,7 +1235,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKLT01",
     "Location": "Kalitola Commercial Sarak Branch, Dinajpur (Terminal 01)",
-    "ATM_Capacity": 1300500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 694810.0,
     "Cash_Remaining_Pct": 53.4,
     "Predicted_Demand": 308231.0,
@@ -1246,7 +1246,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSRE02",
     "Location": "Sreemangal Tea Resort Road Branch, Moulvibazar (Terminal 02)",
-    "ATM_Capacity": 1826250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1277286.0,
     "Cash_Remaining_Pct": 69.9,
     "Predicted_Demand": 548964.0,
@@ -1257,7 +1257,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBIMM02",
     "Location": "Imamganj Mitford Commercial Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1535250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 751904.0,
     "Cash_Remaining_Pct": 49.0,
     "Predicted_Demand": 309448.0,
@@ -1268,7 +1268,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGUL03",
     "Location": "Gulshan Avenue Circle-2 Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1171437.0,
     "Cash_Remaining_Pct": 52.1,
     "Predicted_Demand": 484623.0,
@@ -1279,7 +1279,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRA04",
     "Location": "Pragati Sarani Kuril Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 749250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 526775.0,
     "Cash_Remaining_Pct": 70.3,
     "Predicted_Demand": 222475.0,
@@ -1290,7 +1290,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBAGR02",
     "Location": "Agrabad Commercial Area Branch, Chittagong (Terminal 02)",
-    "ATM_Capacity": 1281750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 905049.0,
     "Cash_Remaining_Pct": 70.6,
     "Predicted_Demand": 376701.0,
@@ -1301,7 +1301,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBHA01",
     "Location": "Bhairab Bazar Station Branch, Kishoreganj (Terminal 01)",
-    "ATM_Capacity": 1979250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1397301.0,
     "Cash_Remaining_Pct": 70.6,
     "Predicted_Demand": 581949.0,
@@ -1312,7 +1312,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDHA07",
     "Location": "Dhanmondi Satmasjid Road Branch, Dhaka (Terminal 07)",
-    "ATM_Capacity": 648750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 648750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 270221.0,
@@ -1323,7 +1323,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKHU02",
     "Location": "KDA Avenue Commercial Zone Branch, Khulna (Terminal 02)",
-    "ATM_Capacity": 573000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 573000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 237326.0,
@@ -1334,7 +1334,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBTAJ01",
     "Location": "Tajmahal Road Mohammadpur Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1060500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1060500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 440933.0,
@@ -1345,7 +1345,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAR05",
     "Location": "Band Road River Port Branch, Barisal (Terminal 05)",
-    "ATM_Capacity": 696750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 320074.0,
     "Cash_Remaining_Pct": 45.9,
     "Predicted_Demand": 130352.0,
@@ -1356,7 +1356,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKAR01",
     "Location": "Karwan Bazar Wholesale Hub Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1189888.0,
     "Cash_Remaining_Pct": 52.9,
     "Predicted_Demand": 477195.0,
@@ -1367,7 +1367,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBZIN01",
     "Location": "Zinzira Ferry Ghat Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1473750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1054944.0,
     "Cash_Remaining_Pct": 71.6,
     "Predicted_Demand": 418806.0,
@@ -1378,7 +1378,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHY01",
     "Location": "Shyamoli Ring Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1830750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1310108.0,
     "Cash_Remaining_Pct": 71.6,
     "Predicted_Demand": 520642.0,
@@ -1389,7 +1389,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAD01",
     "Location": "Badda Pragati Sarani Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1263750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 905954.0,
     "Cash_Remaining_Pct": 71.7,
     "Predicted_Demand": 357796.0,
@@ -1400,7 +1400,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGUL02",
     "Location": "Gulshan Avenue Circle-2 Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1701750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1222210.0,
     "Cash_Remaining_Pct": 71.8,
     "Predicted_Demand": 479540.0,
@@ -1411,7 +1411,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBAGR01",
     "Location": "Agrabad Commercial Area Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1844250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1324689.0,
     "Cash_Remaining_Pct": 71.8,
     "Predicted_Demand": 519561.0,
@@ -1422,7 +1422,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAL04",
     "Location": "Malibagh Chowdhury Para Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 1233750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1233750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 487473.0,
@@ -1433,7 +1433,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBRON01",
     "Location": "Rampura DIT Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1236000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1236000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 490554.0,
@@ -1444,7 +1444,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSYL02",
     "Location": "Zindabazar Shopping Complex Branch, Sylhet (Terminal 02)",
-    "ATM_Capacity": 600750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 600750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 239715.0,
@@ -1455,7 +1455,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCHO02",
     "Location": "Chiringa Chakaria Highway Branch, Cox's Bazar (Terminal 02)",
-    "ATM_Capacity": 1497000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 858059.0,
     "Cash_Remaining_Pct": 57.3,
     "Predicted_Demand": 332023.0,
@@ -1466,7 +1466,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBFAR03",
     "Location": "Mujib Sarak Sadar Branch, Faridpur (Terminal 03)",
-    "ATM_Capacity": 1993500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1447313.0,
     "Cash_Remaining_Pct": 72.6,
     "Predicted_Demand": 546187.0,
@@ -1477,7 +1477,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBDT01",
     "Location": "Baitul Mukarram National Stadium Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1077750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1077750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 410442.0,
@@ -1488,7 +1488,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBNSR03",
     "Location": "Nasirabad Industrial Area Branch, Chittagong (Terminal 03)",
-    "ATM_Capacity": 756000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 756000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 290840.0,
@@ -1499,7 +1499,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR01",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1301250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1301250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 500171.0,
@@ -1510,7 +1510,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHI01",
     "Location": "Shariatpur Sadar Bus Stand Branch (Terminal 01)",
-    "ATM_Capacity": 1659750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 813559.0,
     "Cash_Remaining_Pct": 49.0,
     "Predicted_Demand": 305291.0,
@@ -1521,7 +1521,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOT01",
     "Location": "Motijheel C/A Principal Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1758000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 974395.0,
     "Cash_Remaining_Pct": 55.4,
     "Predicted_Demand": 355088.0,
@@ -1532,7 +1532,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDIN01",
     "Location": "Station Road Commercial Area Branch, Dinajpur (Terminal 01)",
-    "ATM_Capacity": 1404750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1404750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 512348.0,
@@ -1543,7 +1543,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDHA02",
     "Location": "Dhanmondi Satmasjid Road Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 664500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 664500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 250426.0,
@@ -1554,7 +1554,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJHE01",
     "Location": "Jhenaidah Court Road Branch (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2250000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 830262.0,
@@ -1565,7 +1565,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBIMM01",
     "Location": "Imamganj Mitford Commercial Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1062395.0,
     "Cash_Remaining_Pct": 47.2,
     "Predicted_Demand": 383206.0,
@@ -1576,7 +1576,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKHU04",
     "Location": "KDA Avenue Commercial Zone Branch, Khulna (Terminal 04)",
-    "ATM_Capacity": 703500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 518474.0,
     "Cash_Remaining_Pct": 73.7,
     "Predicted_Demand": 185026.0,
@@ -1587,7 +1587,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBFAR01",
     "Location": "Mujib Sarak Sadar Branch, Faridpur (Terminal 01)",
-    "ATM_Capacity": 593250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 437410.0,
     "Cash_Remaining_Pct": 73.7,
     "Predicted_Demand": 155840.0,
@@ -1598,7 +1598,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCHM01",
     "Location": "Chawkbazar Sirajuddowla Road Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 2018250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1490436.0,
     "Cash_Remaining_Pct": 73.8,
     "Predicted_Demand": 527814.0,
@@ -1609,7 +1609,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPLZ01",
     "Location": "Farmgate Green Super Market Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 753000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 556503.0,
     "Cash_Remaining_Pct": 73.9,
     "Predicted_Demand": 196497.0,
@@ -1620,7 +1620,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBEN01",
     "Location": "Benapole Land Port Branch, Jessore (Terminal 01)",
-    "ATM_Capacity": 1317000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1317000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 464485.0,
@@ -1631,7 +1631,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGUL09",
     "Location": "Gulshan Avenue Circle-2 Branch, Dhaka (Terminal 09)",
-    "ATM_Capacity": 945750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 945750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 336953.0,
@@ -1642,7 +1642,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKAR03",
     "Location": "Karwan Bazar Wholesale Hub Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 295500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 295500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 104410.0,
@@ -1653,7 +1653,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKHA01",
     "Location": "Khatunganj Wholesale Market Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 837000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 837000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 299357.0,
@@ -1664,7 +1664,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKHU01",
     "Location": "KDA Avenue Commercial Zone Branch, Khulna (Terminal 01)",
-    "ATM_Capacity": 1166250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1166250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 421415.0,
@@ -1675,7 +1675,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPAG01",
     "Location": "Pagla Bazar Fatullah Branch, Narayanganj (Terminal 01)",
-    "ATM_Capacity": 1867500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 917601.0,
     "Cash_Remaining_Pct": 49.1,
     "Predicted_Demand": 321208.0,
@@ -1686,7 +1686,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBAND01",
     "Location": "Anderkilla Historical Square Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1017000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1017000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 347119.0,
@@ -1697,7 +1697,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBELP05",
     "Location": "Elephant Road Bata Signal Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 1110000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1110000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 378905.0,
@@ -1708,7 +1708,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPAN01",
     "Location": "Panthapath Sonargaon Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 907500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 907500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 318348.0,
@@ -1719,7 +1719,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBSN01",
     "Location": "Bashundhara City Mall Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1629750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1629750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 562899.0,
@@ -1730,7 +1730,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBHOB01",
     "Location": "Habiganj Sadar Main Road Branch (Terminal 01)",
-    "ATM_Capacity": 1454250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1454250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 505234.0,
@@ -1741,7 +1741,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRA01",
     "Location": "Brahmanbaria Court Road Branch (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2250000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 763787.0,
@@ -1752,7 +1752,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAR02",
     "Location": "Band Road River Port Branch, Barisal (Terminal 02)",
-    "ATM_Capacity": 823500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 823500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 282044.0,
@@ -1763,7 +1763,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRD08",
     "Location": "Baridhara Diplomatic Enclave Branch, Dhaka (Terminal 08)",
-    "ATM_Capacity": 1203750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 902965.0,
     "Cash_Remaining_Pct": 75.0,
     "Predicted_Demand": 300785.0,
@@ -1774,7 +1774,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPAT01",
     "Location": "Patuakhali Sadar Band Road Branch (Terminal 01)",
-    "ATM_Capacity": 735000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 551695.0,
     "Cash_Remaining_Pct": 75.1,
     "Predicted_Demand": 183305.0,
@@ -1785,7 +1785,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKUS04",
     "Location": "N.S. Road Commercial Zone Branch, Kushtia (Terminal 04)",
-    "ATM_Capacity": 804000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 605358.0,
     "Cash_Remaining_Pct": 75.3,
     "Predicted_Demand": 198642.0,
@@ -1796,7 +1796,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR08",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 08)",
-    "ATM_Capacity": 1487250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1487250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 498432.0,
@@ -1807,7 +1807,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJES06",
     "Location": "M.K. Road Commercial Hub Branch, Jessore (Terminal 06)",
-    "ATM_Capacity": 834000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 834000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 280828.0,
@@ -1818,7 +1818,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAD02",
     "Location": "Badda Pragati Sarani Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 356250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 159417.0,
     "Cash_Remaining_Pct": 44.7,
     "Predicted_Demand": 50670.0,
@@ -1829,7 +1829,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKAR02",
     "Location": "Karwan Bazar Wholesale Hub Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 364500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 199618.0,
     "Cash_Remaining_Pct": 54.8,
     "Predicted_Demand": 64490.0,
@@ -1840,7 +1840,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDOH02",
     "Location": "DOHS Mirpur Shopping Complex Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1638000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1012956.0,
     "Cash_Remaining_Pct": 61.8,
     "Predicted_Demand": 328209.0,
@@ -1851,7 +1851,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRD04",
     "Location": "Baridhara Diplomatic Enclave Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 865500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 653751.0,
     "Cash_Remaining_Pct": 75.5,
     "Predicted_Demand": 211749.0,
@@ -1862,7 +1862,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCOM03",
     "Location": "Kandirpar Badurtala Branch, Comilla (Terminal 03)",
-    "ATM_Capacity": 1413000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1413000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 458584.0,
@@ -1873,7 +1873,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPRI04",
     "Location": "Panthapath Green Road Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 696000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 696000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 225211.0,
@@ -1884,7 +1884,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGAZ01",
     "Location": "Gazipur Chowrasta Commercial Hub Branch (Terminal 01)",
-    "ATM_Capacity": 2067750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2067750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 665397.0,
@@ -1895,7 +1895,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBSN04",
     "Location": "Bashundhara City Mall Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 1428000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1428000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 461084.0,
@@ -1906,7 +1906,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAR06",
     "Location": "Band Road River Port Branch, Barisal (Terminal 06)",
-    "ATM_Capacity": 338250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 338250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 107438.0,
@@ -1917,7 +1917,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBJES04",
     "Location": "M.K. Road Commercial Hub Branch, Jessore (Terminal 04)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1710520.0,
     "Cash_Remaining_Pct": 76.0,
     "Predicted_Demand": 539480.0,
@@ -1928,7 +1928,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR09",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 09)",
-    "ATM_Capacity": 1533750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1533750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 485392.0,
@@ -1939,7 +1939,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDAR01",
     "Location": "Darussalam Technical Mor Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1371000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1371000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 425638.0,
@@ -1950,7 +1950,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBNAZ01",
     "Location": "Nazirhat Rail Station Road Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1524000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1524000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 477804.0,
@@ -1961,7 +1961,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCHA01",
     "Location": "Chandgaon R/A Bus Terminal Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1408500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1408500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 438446.0,
@@ -1972,7 +1972,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCEP01",
     "Location": "Chittagong EPZ Terminal Branch (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1724034.0,
     "Cash_Remaining_Pct": 76.6,
     "Predicted_Demand": 525966.0,
@@ -1983,7 +1983,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBNAO01",
     "Location": "Naogaon Sadar Commercial Zone Branch (Terminal 01)",
-    "ATM_Capacity": 1950000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1950000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 598056.0,
@@ -1994,7 +1994,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAL02",
     "Location": "Malibagh Chowdhury Para Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1903500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1903500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 577663.0,
@@ -2005,7 +2005,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGAR01",
     "Location": "Garib-e-Newaz Avenue Branch, Uttara, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1074000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1074000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 321013.0,
@@ -2016,7 +2016,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHY04",
     "Location": "Shyamoli Ring Road Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 1176000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1176000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 356540.0,
@@ -2027,7 +2027,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSIR02",
     "Location": "Sirajganj SS Road Bazar Branch (Terminal 02)",
-    "ATM_Capacity": 836250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 836250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 256623.0,
@@ -2038,7 +2038,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSED01",
     "Location": "Station Road Reazuddin Bazar Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1668000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1291355.0,
     "Cash_Remaining_Pct": 77.4,
     "Predicted_Demand": 376645.0,
@@ -2049,7 +2049,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRA03",
     "Location": "Brahmanbaria Court Road Branch (Terminal 03)",
-    "ATM_Capacity": 846000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 655138.0,
     "Cash_Remaining_Pct": 77.4,
     "Predicted_Demand": 190862.0,
@@ -2060,7 +2060,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKAD01",
     "Location": "Kadamtoli Bus Terminal Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1968750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1523286.0,
     "Cash_Remaining_Pct": 77.4,
     "Predicted_Demand": 445464.0,
@@ -2071,7 +2071,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR07",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 07)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2250000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 664992.0,
@@ -2082,7 +2082,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOH04",
     "Location": "Mohakhali C/A Wireless Gate Branch, Dhaka (Terminal 04)",
-    "ATM_Capacity": 516750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 516750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 152000.0,
@@ -2093,7 +2093,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDHA05",
     "Location": "Dhanmondi Satmasjid Road Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 850500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 850500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 247248.0,
@@ -2104,7 +2104,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDHA03",
     "Location": "Dhanmondi Satmasjid Road Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 913500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 913500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 268955.0,
@@ -2115,7 +2115,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR02",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2250000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 652827.0,
@@ -2126,7 +2126,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBHAT01",
     "Location": "Hathazari College Road Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1352250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1352250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 393144.0,
@@ -2137,7 +2137,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSAT01",
     "Location": "Satkhira Sadar Court Road Branch (Terminal 01)",
-    "ATM_Capacity": 1815750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1815750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 532377.0,
@@ -2148,7 +2148,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRD02",
     "Location": "Baridhara Diplomatic Enclave Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1782750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1782750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 527007.0,
@@ -2159,7 +2159,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSIT01",
     "Location": "Sitakunda Highway Bypass Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2250000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 654811.0,
@@ -2170,7 +2170,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSIT02",
     "Location": "Sitakunda Highway Bypass Branch, Chittagong (Terminal 02)",
-    "ATM_Capacity": 321000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 321000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 93871.0,
@@ -2181,7 +2181,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBKAK01",
     "Location": "Kakrail VIP Road Intersection Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1347000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1347000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 398237.0,
@@ -2192,7 +2192,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR12",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 12)",
-    "ATM_Capacity": 927000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 927000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 276004.0,
@@ -2203,7 +2203,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR02",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1974750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1974750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 565938.0,
@@ -2214,7 +2214,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR13",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 13)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2250000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 642849.0,
@@ -2225,7 +2225,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPCR01",
     "Location": "Panchlaish Medical College Gate Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1692000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1692000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 477340.0,
@@ -2236,7 +2236,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSYL03",
     "Location": "Zindabazar Shopping Complex Branch, Sylhet (Terminal 03)",
-    "ATM_Capacity": 1602750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1602750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 457878.0,
@@ -2247,7 +2247,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCHT02",
     "Location": "Chhatak Cement Town Branch, Sunamganj (Terminal 02)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1759765.0,
     "Cash_Remaining_Pct": 78.2,
     "Predicted_Demand": 490235.0,
@@ -2258,7 +2258,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBVIP02",
     "Location": "VIP Road Segunbagicha Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1103250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1103250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 305340.0,
@@ -2269,7 +2269,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCHW01",
     "Location": "Chowk Bazar Shahi Mosque Square Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1607250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1607250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 444158.0,
@@ -2280,7 +2280,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAL08",
     "Location": "Malibagh Chowdhury Para Branch, Dhaka (Terminal 08)",
-    "ATM_Capacity": 901500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 901500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 252467.0,
@@ -2291,7 +2291,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGUL01",
     "Location": "Gulshan Avenue Circle-2 Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1427250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1427250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 400002.0,
@@ -2302,7 +2302,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCDA01",
     "Location": "CDA Avenue Nasirabad Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1770750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1770750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 487444.0,
@@ -2313,7 +2313,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBISL01",
     "Location": "Islampur Cloth Market Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 737250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 737250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 203673.0,
@@ -2324,7 +2324,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBOR01",
     "Location": "Borobazar Commercial Area Branch, Khulna (Terminal 01)",
-    "ATM_Capacity": 2179500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1713876.0,
     "Cash_Remaining_Pct": 78.6,
     "Predicted_Demand": 465624.0,
@@ -2335,7 +2335,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSIR01",
     "Location": "Sirajganj SS Road Bazar Branch (Terminal 01)",
-    "ATM_Capacity": 1037250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 816910.0,
     "Cash_Remaining_Pct": 78.8,
     "Predicted_Demand": 220340.0,
@@ -2346,7 +2346,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGAZ03",
     "Location": "Gazipur Chowrasta Commercial Hub Branch (Terminal 03)",
-    "ATM_Capacity": 1289250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1289250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 349676.0,
@@ -2357,7 +2357,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCDA02",
     "Location": "CDA Avenue Nasirabad Branch, Chittagong (Terminal 02)",
-    "ATM_Capacity": 1617750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1617750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 438411.0,
@@ -2368,7 +2368,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCDA03",
     "Location": "CDA Avenue Nasirabad Branch, Chittagong (Terminal 03)",
-    "ATM_Capacity": 697500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 697500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 187203.0,
@@ -2379,7 +2379,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSAI02",
     "Location": "Science Laboratory New Market Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1236000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 692284.0,
     "Cash_Remaining_Pct": 56.0,
     "Predicted_Demand": 183739.0,
@@ -2390,7 +2390,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBLOH01",
     "Location": "Lohagara Station Road Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 936000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 742870.0,
     "Cash_Remaining_Pct": 79.4,
     "Predicted_Demand": 193130.0,
@@ -2401,7 +2401,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMIR03",
     "Location": "Mirpur-10 Commercial Circle Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 1474500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1474500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 385300.0,
@@ -2412,7 +2412,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBEST01",
     "Location": "Eastern Plaza Hatirpool Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1758750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1758750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 465838.0,
@@ -2423,7 +2423,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBRDS01",
     "Location": "Radisson Blu Circle SS Sarak Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1260750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1260750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 330602.0,
@@ -2434,7 +2434,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBISL02",
     "Location": "Islampur Cloth Market Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1267500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1267500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 330300.0,
@@ -2445,7 +2445,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPAH02",
     "Location": "Pahartali Railway Gate Branch, Chittagong (Terminal 02)",
-    "ATM_Capacity": 1674000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1331118.0,
     "Cash_Remaining_Pct": 79.5,
     "Predicted_Demand": 342882.0,
@@ -2456,7 +2456,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAR01",
     "Location": "Band Road River Port Branch, Barisal (Terminal 01)",
-    "ATM_Capacity": 1590750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1266137.0,
     "Cash_Remaining_Pct": 79.6,
     "Predicted_Demand": 324613.0,
@@ -2467,7 +2467,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBRON06",
     "Location": "Rampura DIT Road Branch, Dhaka (Terminal 06)",
-    "ATM_Capacity": 558750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 558750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 143122.0,
@@ -2478,7 +2478,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBSK01",
     "Location": "Bashundhara R/A Main Gate Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 2169750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1735888.0,
     "Cash_Remaining_Pct": 80.0,
     "Predicted_Demand": 433862.0,
@@ -2489,7 +2489,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOU01",
     "Location": "Moulvibazar Court Road Branch (Terminal 01)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2250000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 562751.0,
@@ -2500,7 +2500,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBNAR01",
     "Location": "Narayanganj Chasara BB Road Branch (Terminal 01)",
-    "ATM_Capacity": 1949250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1949250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 491179.0,
@@ -2511,7 +2511,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBNSA01",
     "Location": "Narsingdi Station Road Bazar Branch (Terminal 01)",
-    "ATM_Capacity": 1104750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1104750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 275133.0,
@@ -2522,7 +2522,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSTR01",
     "Location": "Strand Road Sadarghat Jetty Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1788000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1788000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 443082.0,
@@ -2533,7 +2533,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPAH01",
     "Location": "Pahartali Railway Gate Branch, Chittagong (Terminal 01)",
-    "ATM_Capacity": 1944750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1944750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 478915.0,
@@ -2544,7 +2544,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCEP02",
     "Location": "Chittagong EPZ Terminal Branch (Terminal 02)",
-    "ATM_Capacity": 2238750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2238750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 543299.0,
@@ -2555,7 +2555,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBVIP01",
     "Location": "VIP Road Segunbagicha Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 2027250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2027250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 486912.0,
@@ -2566,7 +2566,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSHY05",
     "Location": "Shyamoli Ring Road Branch, Dhaka (Terminal 05)",
-    "ATM_Capacity": 2250000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2250000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 540178.0,
@@ -2577,7 +2577,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMOG02",
     "Location": "Moghbazar Wireless Intersection Branch, Dhaka (Terminal 02)",
-    "ATM_Capacity": 1101000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1101000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 257388.0,
@@ -2588,7 +2588,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR06",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 06)",
-    "ATM_Capacity": 813750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 813750.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 186858.0,
@@ -2599,7 +2599,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR10",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 10)",
-    "ATM_Capacity": 1979250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1979250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 446265.0,
@@ -2610,7 +2610,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBHL01",
     "Location": "Bhola Sadar Bangla Bazar Branch (Terminal 01)",
-    "ATM_Capacity": 2224500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 2224500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 489729.0,
@@ -2621,7 +2621,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCHP01",
     "Location": "Chandpur Shahid Muktijoddha Sarak Branch (Terminal 01)",
-    "ATM_Capacity": 1232250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1232250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 270482.0,
@@ -2632,7 +2632,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBDHA08",
     "Location": "Dhanmondi Satmasjid Road Branch, Dhaka (Terminal 08)",
-    "ATM_Capacity": 740250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 523588.0,
     "Cash_Remaining_Pct": 70.7,
     "Predicted_Demand": 109690.0,
@@ -2643,7 +2643,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBEN02",
     "Location": "Benapole Land Port Branch, Jessore (Terminal 02)",
-    "ATM_Capacity": 1720500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1720500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 360461.0,
@@ -2654,7 +2654,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBCOX02",
     "Location": "Hotel Seagull Point Branch, Cox's Bazar (Terminal 02)",
-    "ATM_Capacity": 1750500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1750500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 367951.0,
@@ -2665,7 +2665,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBSAN01",
     "Location": "Shantinagar Twin Towers Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 837000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 494279.0,
     "Cash_Remaining_Pct": 59.1,
     "Predicted_Demand": 100359.0,
@@ -2676,7 +2676,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAD03",
     "Location": "Badda Pragati Sarani Branch, Dhaka (Terminal 03)",
-    "ATM_Capacity": 507000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 507000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 102864.0,
@@ -2687,7 +2687,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPCR03",
     "Location": "Panchlaish Medical College Gate Branch, Chittagong (Terminal 03)",
-    "ATM_Capacity": 745500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 745500.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 151894.0,
@@ -2698,7 +2698,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBAN01",
     "Location": "Banani Road 11 Executive Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1839000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1839000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 378993.0,
@@ -2709,7 +2709,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPTL01",
     "Location": "Purana Paltan VIP Tower Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 1169250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1169250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 217169.0,
@@ -2720,7 +2720,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAD02",
     "Location": "Madaripur Sadar Main Road Branch (Terminal 02)",
-    "ATM_Capacity": 941250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 799709.0,
     "Cash_Remaining_Pct": 85.0,
     "Predicted_Demand": 141541.0,
@@ -2731,7 +2731,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBPCR02",
     "Location": "Panchlaish Medical College Gate Branch, Chittagong (Terminal 02)",
-    "ATM_Capacity": 542250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 542250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 89396.0,
@@ -2742,7 +2742,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBOG06",
     "Location": "Satmatha Rangpur Road Branch, Bogra (Terminal 06)",
-    "ATM_Capacity": 554250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 554250.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 83856.0,
@@ -2753,7 +2753,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBMAD03",
     "Location": "Madaripur Sadar Main Road Branch (Terminal 03)",
-    "ATM_Capacity": 1308000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 916287.0,
     "Cash_Remaining_Pct": 70.1,
     "Predicted_Demand": 125052.0,
@@ -2764,7 +2764,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBGUL08",
     "Location": "Gulshan Avenue Circle-2 Branch, Dhaka (Terminal 08)",
-    "ATM_Capacity": 1686750.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1501873.0,
     "Cash_Remaining_Pct": 89.0,
     "Predicted_Demand": 184877.0,
@@ -2775,7 +2775,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBOG05",
     "Location": "Satmatha Rangpur Road Branch, Bogra (Terminal 05)",
-    "ATM_Capacity": 675000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 675000.0,
     "Cash_Remaining_Pct": 100.0,
     "Predicted_Demand": 77689.0,
@@ -2786,7 +2786,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBRD07",
     "Location": "Baridhara Diplomatic Enclave Branch, Dhaka (Terminal 07)",
-    "ATM_Capacity": 2208000.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1986509.0,
     "Cash_Remaining_Pct": 90.0,
     "Predicted_Demand": 221491.0,
@@ -2797,7 +2797,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBBIJ01",
     "Location": "Bijoynagar Water Tank Road Branch, Dhaka (Terminal 01)",
-    "ATM_Capacity": 440250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 290993.0,
     "Cash_Remaining_Pct": 66.1,
     "Predicted_Demand": 18136.0,
@@ -2808,7 +2808,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBUTR08",
     "Location": "Uttara Sector 3 Commercial Hub Branch, Dhaka (Terminal 08)",
-    "ATM_Capacity": 1486500.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 802238.0,
     "Cash_Remaining_Pct": 54.0,
     "Predicted_Demand": 18168.0,
@@ -2819,7 +2819,7 @@ export const atmData: ATMRecord[] = [
   {
     "ATMID": "ABBFEN01",
     "Location": "Trunk Road SSK Sarak Branch, Feni (Terminal 01)",
-    "ATM_Capacity": 1844250.0,
+    "ATM_Capacity": 3600000.0,
     "Estimated_Cash_Remaining": 1154955.0,
     "Cash_Remaining_Pct": 62.6,
     "Predicted_Demand": 18168.0,
